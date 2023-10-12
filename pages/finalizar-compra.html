@@ -41,25 +41,40 @@
                     <div class="doble-ingreso">
                         <div class="label-entrada">
                             <label for="nombre-compra">Nombre</label>
-                            <input class="alto-input" type="text" name="nombre-compra" id="" required>
+                            <input class="alto-input" type="text" name="nombre-compra" id="nombre-comprador">
+                            <div class="error-nombre">
+                                <ul></ul>
+                            </div>
                         </div>
                         <div class="label-entrada">
                             <label for="apellido-compra">Apellido</label>
-                            <input class="alto-input" type="text" name="apellido-compra" id="" required>
+                            <input class="alto-input" type="text" name="apellido-compra" id="apellido-comprador">
+                            <div class="error-apellido">
+                                <ul></ul>
+                            </div>
                         </div>  
                     </div>
                     <div class="label-entrada">
                         <label for="email-compra">Email</label>
-                        <input class="alto-input" type="text" name="email-compra" id="" required>
+                        <input class="alto-input" type="text" name="email-compra" id="email-comprador">
+                        <div class="error-email">
+                            <ul></ul>
+                        </div>
                     </div>
                     <div class="doble-ingreso">
                         <div class="label-entrada">
                             <label for="dni-compra">DNI</label>
-                            <input class="alto-input" type="text" name="dni-compra" id="" required>
+                            <input class="alto-input" type="text" name="dni-compra" id="dni-comprador">
+                            <div class="error-dni">
+                                <ul></ul>
+                            </div>
                         </div>
                         <div class="label-entrada">
                             <label for="tel-compra">Teléfono</label>
-                            <input class="alto-input" type="text" name="tel-compra" id="" required>
+                            <input class="alto-input" type="text" name="tel-compra" id="telefono-comprador">
+                            <div class="error-telefono">
+                                <ul></ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,32 +85,50 @@
                     </div>
                     <div class="label-entrada">
                         <label for="codi-post-compra">Código Postal</label>
-                        <input class="alto-input" type="text" name="codi-post-compra" id="" required>
+                        <input class="alto-input" type="text" name="codi-post-compra" id="codi-post-compra">
+                        <div class="error-codigo-postal">
+                            <ul></ul>
+                        </div>
                     </div>
                     <div class="label-entrada">
                         <label for="dire-compra">Calle</label>
-                        <input class="alto-input" type="text" name="dire-compra" id="" required>
+                        <input class="alto-input" type="text" name="dire-compra" id="dire-compra">
+                        <div class="error-dir-calle">
+                            <ul></ul>
+                        </div>
                     </div>
                     <div class="label-entrada">
                         <label for="num-dire-compra">Número</label>
-                        <input class="alto-input" type="text" name="num-dire-compra" id="" required>
+                        <input class="alto-input" type="text" name="num-dire-compra" id="num-dire-compra">
+                        <div class="error-dir-num">
+                            <ul></ul>
+                        </div>
                     </div>
                     <div class="label-entrada">
                         <label for="piso-compra">Piso o Departamento</label>
-                        <input class="alto-input" type="text" name="piso-compra" id="">
+                        <input class="alto-input" type="text" name="piso-compra" id="num-piso-compra">
+                        <div class="error-dir-piso">
+                            <ul></ul>
+                        </div>
                     </div>
                     <div class="label-entrada">
                         <label for="provincia-compra">Provincia</label>
-                        <input class="alto-input" type="text" name="provincia-compra" id="" required>
+                        <input class="alto-input" type="text" name="provincia-compra" id="provincia-compra">
+                        <div class="error-provincia">
+                            <ul></ul>
+                        </div>
                     </div>
                     <div class="label-entrada">
                         <label for="ciudad-compra">Ciudad</label>
-                        <input class="alto-input" type="text" name="ciudad-compra" id="" required>
+                        <input class="alto-input" type="text" name="ciudad-compra" id="ciudad-compra">
+                        <div class="error-ciudad">
+                            <ul></ul>
+                        </div>
                     </div>
                     <div class="label-entrada">
                         <label class="texto-gris" for="entrega-compra">Método de entrega</label>
                         <div class="cuadro-entrega-formulario">
-                            <input type="radio" name="servicio-entrega" id="" required>
+                            <input type="radio" name="servicio-entrega" id="">
                             <div>
                                 <p><strong>Andreani</strong></p>
                                 <p>Llega en 3 a 5 días hábiles</p>
@@ -103,7 +136,7 @@
                             <p class="texto-gris">$2.120</p>
                         </div>
                         <div class="cuadro-entrega-formulario">
-                            <input type="radio" name="servicio-entrega" id="" required>
+                            <input type="radio" name="servicio-entrega" id="">
                             <div>
                                 <p><strong>Correo Argentino</strong></p>
                                 <p>Llega en 3 a 5 días hábiles</p>
@@ -119,24 +152,24 @@
                     </div>
                     <div class="label-entrada">
                         <label for="tarjeta-compra">Número de tarjeta</label>
-                        <input class="alto-input" type="text" name="tarjeta-compra" id="" required>
+                        <input class="alto-input" type="text" name="tarjeta-compra" id="">
                     </div>
                     <div class="label-entrada">
                         <label for="titular-tarjeta-compra">Nombre del titular de la tarjeta</label>
-                        <input class="alto-input" type="text" name="titular-tarjeta-compra" id="" required>
+                        <input class="alto-input" type="text" name="titular-tarjeta-compra" id="">
                         <p class="texto-gris">Tal como aparece en la tarjeta</p>
                     </div>
                     <div class="label-entrada-2">
                         <label for="fecha-tarjeta-compra">Fecha de vencimiento</label>
                         <div class="fecha-posicion">
-                            <input type="number" min="23" max="63" step="1" name="fecha-tarjeta-compra" id="" placeholder="MM" required>
+                            <input type="number" min="23" max="63" step="1" name="fecha-tarjeta-compra" id="" placeholder="MM">
                             <p>/</p>
-                            <input type="number" min="01" max="12" step="1" name="fecha-tarjeta-compra" id="" placeholder="AA" required>
+                            <input type="number" min="01" max="12" step="1" name="fecha-tarjeta-compra" id="" placeholder="AA">
                         </div>
                     </div>
                     <div class="label-entrada-2">
                         <label for="cvv-compra">CVV</label>
-                        <input class="alto-input" type="text" name="cvv-compra" id="" required>
+                        <input class="alto-input" type="text" name="cvv-compra" id="">
                     </div>
                 </div>
             </div>
